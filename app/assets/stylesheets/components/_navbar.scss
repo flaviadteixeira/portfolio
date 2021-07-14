@@ -15,3 +15,16 @@
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
+
+.navbar.navbar-expand-sm.navbar-light.navbar-lewagon {
+  right: 24px;
+  position: absolute;
+}
+
+.green-form-nav {
+  height: 629px;
+  width: 720px;
+  position: absolute;
+  right: -1px;
+  z-index: -1;
+}
