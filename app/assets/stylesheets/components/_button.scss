@@ -1,0 +1,44 @@
+// landing page
+
+.linkedin-button {
+  a{
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.linkedin-button {
+  position: absolute;
+  top: 368px;
+  left: 264px;
+  border-radius: 5px;
+  height: 48px;
+}
+
+.linkedin-button:hover {
+  background-color:#d3eee1;
+  border: none;
+}
+
+
+.cv-button {
+  a{
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.cv-button {
+  position: absolute;
+  top: 368px;
+  left: 120px;
+  border-radius: 5px;
+  border: none;
+  background-color: #d3eee1;
+  height: 48px;
+}
+
+.cv-button:hover {
+  background-color: transparent;
+  border: dotted;
+}
