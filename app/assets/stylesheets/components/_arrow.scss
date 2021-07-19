@@ -1,0 +1,12 @@
+.img-arrow {
+  position: absolute;
+  width: 56px;
+  top: 552px;
+  left: 616px;
+  animation: down 0.5s infinite alternate;
+}
+
+@keyframes down {
+  from { top: 552px; left: 616px; }
+  to { top: 560px; left: 616px; }
+}
