@@ -1,9 +1,13 @@
+// title
+
 .title-projects {
   position: absolute;
   top: 656px;
   text-align: center;
   left: 572px;
 }
+
+// arrow
 
 .img-stripe {
   position: absolute;
@@ -13,9 +17,11 @@
   height: 4px;
 }
 
+// card
+
 .card-project {
   overflow: hidden;
-  height: 240px;
+  height: 256px;
   width: 800px;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
@@ -35,7 +41,14 @@
 }
 
 .card-project {
+  a {
+    text-decoration: none;
+  }
+}
+
+.card-project {
   h3 {
+    color:black;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -60,7 +73,7 @@
 
 .card2-project {
   overflow: hidden;
-  height: 240px;
+  height: 256px;
   width: 800px;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
@@ -69,6 +82,12 @@
   position: absolute;
   top: 1080px;
   left: 240px;
+}
+
+.card2-project {
+  a {
+    text-decoration: none;
+  }
 }
 
 .card2-project {
@@ -81,6 +100,7 @@
 
 .card2-project {
   h3 {
+    color:black;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -99,6 +119,28 @@
   }
 }
 
-.card-project .card-project-infos {
+.card-project-infos {
   padding: 16px;
 }
+
+
+// icons
+
+.card-stack-icons {
+  img {
+    width: 40px;
+    padding: 0px 10px;
+  }
+}
+
+.card-stack-icons {
+  margin-top: 40px;
+  text-align: center;
+}
+
+// main title
+
+h3:hover {
+  color: #d3eee1;
+}
+
