@@ -4,8 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
-  padding: 0px 50px;
   color: rgba(255, 255, 255, 0.986);
   position: absolute;
   bottom: -840px;
@@ -14,11 +12,11 @@
 
 .footer-small-links {
   a {
-    color: black;
     text-decoration: none;
     font-size: 24px;
     padding: 0px 10px;
   }
+
   i {
     color: black;
   }
@@ -37,4 +35,5 @@
   width: 100%;
   position: absolute;
   bottom: -896px;
+  z-index: -1;
 }
