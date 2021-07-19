@@ -1,102 +1,84 @@
-
-<div class="main d-flex">
-  <!-- NAVBAR -->
-  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-    <%= link_to "#", class: "navbar-brand" do %>
-    <% end %>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <%= link_to "Projects", "#projects", class: "nav-link" %>
-          </li>
-          <li class="nav-item">
-            <%= link_to "About", "#", class: "nav-link" %>
-          </li>
-          <li class="nav-item">
-            <%= link_to "Contact", "#", class: "nav-link" %>
-          </li>
-        </ul>
-      </div>
+<!-- NAVBAR -->
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <%= link_to "#", class: "navbar-brand" do %>
+  <% end %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <%= link_to "Projects", "#projects", class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "About", "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Contact", "#", class: "nav-link" %>
+      </li>
+    </ul>
   </div>
-
-  <!-- green form -->
-
-  <%= image_tag "green-form.png", class: "green-form-nav"%>
-
-  <!-- images -->
-
-  <%= image_tag "girl.png", class: "img-girl"%>
-  <%= image_tag "cat.png", class: "img-cat"%>
-
-  <!-- action text -->
- <div class="container d-flex justify-content-around">
-    <div class="big-heading">
-      <h1>Hello, my name is Flavia.</h1>
-      <p>I'me a Junior Full-Stack Developer/ Product Manager. I've recently graduated from Le Wagon and I'm seeking for my first professional experience as a Developer.</p>
-    </div>
-    <button type="button" class="btn-lg linkedin-button"><a href="https://www.linkedin.com/in/flaviadteixeira/" target="blank"> Linkedin</a></button>
-    <button type="button" class="btn-lg cv-button"><a href="https://www.linkedin.com/in/flaviadteixeira/" target="blank"> Resume</a></button>
+</div>
+<!-- green form -->
+<%= image_tag "green-form.png", class: "green-form-nav"%>
+<!-- images -->
+<%= image_tag "girl.png", class: "img-girl"%>
+<%= image_tag "cat.png", class: "img-cat"%>
+<!-- action text -->
+<div class="container d-flex justify-content-around">
+  <div class="big-heading">
+    <h1>Hello, my name is Flavia.</h1>
+    <p>I'me a Junior Full-Stack Developer/ Product Manager. I've recently graduated from Le Wagon and I'm seeking for my first professional experience as a Developer.</p>
   </div>
-
-  <!-- arrow -->
-
-  <%= image_tag "arrow.png", class: "img-arrow"%>
-
-  <!-- projects section -->
-  <h1 class="title-projects" id="projects">Projects</h1>
-  <%= image_tag "stripe.png", class: "img-stripe"%>
-  <div class="card-project">
-    <img src="https://i.ibb.co/M6PYsxP/spotlight3.png" />
-    <div class="card-project-infos">
-      <a href="http://www.spotlight-connect.com/"><h3>Spotlight</h3></a>
-      <p>For the final project of the Bootcamp, we created a LinkedIn alike platform that connects emerging artists with the major players of the music industry.</p>
-        <div class="card-stack-icons">
-          <img src="https://img.stackshare.io/service/989/ruby.png" />
-          <img src="https://img.stackshare.io/service/990/x57_Lorv.png" />
-          <img src="https://img.stackshare.io/service/1209/javascript.jpeg" />
-          <img src="https://img.stackshare.io/service/1028/ASOhU5xJ.png" />
-          <img src="https://image.flaticon.com/icons/png/512/1051/1051277.png" />
-          <img src="https://image.flaticon.com/icons/png/512/732/732190.png" />
-          <img src="https://image.flaticon.com/icons/png/512/919/919831.png" />
-          <img src="https://img.stackshare.io/service/1078/4b7277462dadad85454ab427ce3f0ca7.png" />
-          <img src="https://img.stackshare.io/service/133/3wgIDj3j.png" />
-          <img src="https://img.stackshare.io/service/27/sBsvBbjY.png" />
-          <img src="https://img.stackshare.io/service/7007/TWYoDqir_400x400.png" />
-          <img src="https://img.stackshare.io/service/109/-CvHThPk_400x400.jpg" />
-        </div>
-    </div>
-  </div>
-
-   <div class="card2-project">
-    <img src="https://i.ibb.co/b1DZ4Fp/rentchef.png" />
-    <div class="card-project-infos">
-      <a href="https://rentyourchef.herokuapp.com/"><h3>Rent-a-Chef</h3></a>
-      <p>Before the final projects, we had to create an AirBnB alike platform (marketplace) where someone can rent something. It was the first experience creating an app from scratch.</p>
-        <div class="card-stack-icons">
-          <img src="https://img.stackshare.io/service/989/ruby.png" />
-          <img src="https://img.stackshare.io/service/990/x57_Lorv.png" />
-          <img src="https://img.stackshare.io/service/1028/ASOhU5xJ.png" />
-          <img src="https://image.flaticon.com/icons/png/512/1051/1051277.png" />
-          <img src="https://image.flaticon.com/icons/png/512/732/732190.png" />
-          <img src="https://image.flaticon.com/icons/png/512/919/919831.png" />
-          <img src="https://img.stackshare.io/service/133/3wgIDj3j.png" />
-          <img src="https://img.stackshare.io/service/27/sBsvBbjY.png" />
-          <img src="https://img.stackshare.io/service/7007/TWYoDqir_400x400.png" />
-          <img src="https://img.stackshare.io/service/109/-CvHThPk_400x400.jpg" />
-        </div>
+  <button type="button" class="btn-lg linkedin-button"><a href="https://www.linkedin.com/in/flaviadteixeira/" target="blank"> Linkedin</a></button>
+  <button type="button" class="btn-lg cv-button"><a href="https://www.linkedin.com/in/flaviadteixeira/" target="blank"> Resume</a></button>
+</div>
+<!-- arrow -->
+<%= image_tag "arrow.png", class: "img-arrow"%>
+<!-- projects section -->
+<h1 class="title-projects" id="projects">Projects</h1>
+<%= image_tag "stripe.png", class: "img-stripe"%>
+<div class="card-project">
+  <img src="https://i.ibb.co/M6PYsxP/spotlight3.png" />
+  <div class="card-project-infos">
+    <a href="http://www.spotlight-connect.com/"><h3>Spotlight</h3></a>
+    <p>For the final project of the Bootcamp, we created a LinkedIn alike platform that connects emerging artists with the major players of the music industry.</p>
+    <div class="card-stack-icons">
+      <img src="https://img.stackshare.io/service/989/ruby.png" />
+      <img src="https://img.stackshare.io/service/990/x57_Lorv.png" />
+      <img src="https://img.stackshare.io/service/1209/javascript.jpeg" />
+      <img src="https://img.stackshare.io/service/1028/ASOhU5xJ.png" />
+      <img src="https://image.flaticon.com/icons/png/512/1051/1051277.png" />
+      <img src="https://image.flaticon.com/icons/png/512/732/732190.png" />
+      <img src="https://image.flaticon.com/icons/png/512/919/919831.png" />
+      <img src="https://img.stackshare.io/service/1078/4b7277462dadad85454ab427ce3f0ca7.png" />
+      <img src="https://img.stackshare.io/service/133/3wgIDj3j.png" />
+      <img src="https://img.stackshare.io/service/27/sBsvBbjY.png" />
+      <img src="https://img.stackshare.io/service/7007/TWYoDqir_400x400.png" />
+      <img src="https://img.stackshare.io/service/109/-CvHThPk_400x400.jpg" />
     </div>
   </div>
 </div>
-
-
+<div class="card2-project">
+  <img src="https://i.ibb.co/b1DZ4Fp/rentchef.png" />
+  <div class="card-project-infos">
+    <a href="https://rentyourchef.herokuapp.com/"><h3>Rent-a-Chef</h3></a>
+    <p>Before the final projects, we had to create an AirBnB alike platform (marketplace) where someone can rent something. It was the first experience creating an app from scratch.</p>
+    <div class="card-stack-icons">
+      <img src="https://img.stackshare.io/service/989/ruby.png" />
+      <img src="https://img.stackshare.io/service/990/x57_Lorv.png" />
+      <img src="https://img.stackshare.io/service/1028/ASOhU5xJ.png" />
+      <img src="https://image.flaticon.com/icons/png/512/1051/1051277.png" />
+      <img src="https://image.flaticon.com/icons/png/512/732/732190.png" />
+      <img src="https://image.flaticon.com/icons/png/512/919/919831.png" />
+      <img src="https://img.stackshare.io/service/133/3wgIDj3j.png" />
+      <img src="https://img.stackshare.io/service/27/sBsvBbjY.png" />
+      <img src="https://img.stackshare.io/service/7007/TWYoDqir_400x400.png" />
+      <img src="https://img.stackshare.io/service/109/-CvHThPk_400x400.jpg" />
+    </div>
+  </div>
+</div>
 <!-- Footer -->
-
 <div class="footer-small ">
   <div class="footer-small-links">
     <a href="https://github.com/flaviadteixeira"><i class="fab fa-github"></i></a>
@@ -107,9 +89,5 @@
     Flavia Teixeira 2021
   </div>
 </div>
-
-
 <!-- green footer -->
-
 <%= image_tag "green-footer.png", class: "green-form-footer"%>
-
