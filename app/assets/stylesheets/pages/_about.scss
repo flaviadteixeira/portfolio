@@ -18,3 +18,33 @@
   left: 816px;
   top: 168px;
 }
+
+
+
+
+
+
+
+
+
+
+
+// footer
+.footer-small-about {
+  background: transparent;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.986);
+  position: absolute;
+  bottom: -136px;
+  width: 100%;
+}
+
+.green-form-footer-about {
+  width: 100%;
+  position: absolute;
+  bottom: -224px;
+  z-index: -1;
+}
