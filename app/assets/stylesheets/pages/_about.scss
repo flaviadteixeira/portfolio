@@ -20,14 +20,54 @@
 }
 
 
+// about text
 
+.about-heading {
+  h2 {
+    font-size: 3.5rem;
+  }
+}
 
+.about-heading {
+  p {
+    color: #828282;
+    padding-top: 16px;
+  }
+}
 
+.about-heading {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 486px;
+height: 369px;
+left: 120px;
+top: 110px;
+}
 
+.linkedin-button-about {
+  a{
+    text-decoration: none;
+    color: black;
+  }
+}
 
+.linkedin-button-about {
+  position: absolute;
+  top: 416px;
+  left: 120px;
+  border-radius: 5px;
+  height: 48px;
+  background-color: #d3eee1;
+  border: none;
+}
 
-
-
+.linkedin-button-about:hover {
+  background-color: transparent;
+  border: 2px solid black;
+}
 
 // footer
 .footer-small-about {
