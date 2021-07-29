@@ -2,40 +2,40 @@
 
 .title-projects {
   position: absolute;
-  top: 656px;
+  top: 41rem;
   text-align: center;
-  left: 572px;
+  left: 35.75rem;
 }
 
 // arrow
 
 .img-stripe {
   position: absolute;
-  left: 572px;
-  top: 712px;
-  width: 144px;
-  height: 4px;
+  left: 35.75rem;
+  top: 44.5rem;
+  width: 9rem;
+  height: 0.25rem;
 }
 
 // card
 
 .card-project {
   overflow: hidden;
-  height: 256px;
-  width: 800px;
+  height: 16rem;
+  width: 50rem;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
   position: absolute;
-  top: 776px;
-  left: 240px;
+  top: 48.5rem;
+  left: 15rem;
 }
 
 .card-project {
   img {
     height: 100%;
-    width: 560px;
+    width: 35rem;
     object-fit: contain;
   }
 }
@@ -49,39 +49,39 @@
 .card-project {
   h3 {
     color:black;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
 }
 
 .card-project {
   p  {
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 1.4;
     opacity: .7;
     margin-bottom: 0;
-    margin-top: 8px;
+    margin-top: 0.5rem;
     text-align: center;
   }
 }
 
 .card-project .card-project-infos {
-  padding: 16px;
+  padding: 1rem;
 }
 
 .card2-project {
   overflow: hidden;
-  height: 256px;
-  width: 800px;
+  height: 16rem;
+  width: 50rem;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
   position: absolute;
-  top: 1080px;
-  left: 240px;
+  top: 67.5rem;
+  left: 15rem;
 }
 
 .card2-project {
@@ -93,7 +93,7 @@
 .card2-project {
   img {
     height: 80%;
-    width: 560px;
+    width: 35rem;
     object-fit: contain;
   }
 }
@@ -101,26 +101,26 @@
 .card2-project {
   h3 {
     color:black;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
 }
 
 .card2-project {
   p  {
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 1.4;
     opacity: .7;
     margin-bottom: 0;
-    margin-top: 8px;
+    margin-top: 0.5rem;
     text-align: center;
   }
 }
 
 .card-project-infos {
-  padding: 16px;
+  padding: 1rem;
 }
 
 
@@ -128,13 +128,13 @@
 
 .card-stack-icons {
   img {
-    width: 40px;
+    width: 2.5rem;
     padding: 0px 10px;
   }
 }
 
 .card-stack-icons {
-  margin-top: 40px;
+  margin-top: 2.5rem;
   text-align: center;
 }
 
@@ -143,4 +143,6 @@
 h3:hover {
   color: #d3eee1;
 }
+
+
 

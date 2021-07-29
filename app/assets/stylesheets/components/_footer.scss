@@ -1,19 +1,19 @@
 .footer-small {
   background: transparent;
-  height: 100px;
+  height: 6.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   color: rgba(255, 255, 255, 0.986);
   position: absolute;
-  bottom: -840px;
+  bottom: -52.5rem;
   width: 100%;
 }
 
 .footer-small-links {
   a {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 0px 10px;
   }
 
@@ -34,6 +34,6 @@
 .green-form-footer {
   width: 100%;
   position: absolute;
-  bottom: -896px;
+  bottom: -56rem;
   z-index: -1;
 }

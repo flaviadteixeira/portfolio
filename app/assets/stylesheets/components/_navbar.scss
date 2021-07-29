@@ -1,4 +1,5 @@
 .navbar-lewagon {
+  display: flex;
   justify-content: space-between;
   background: transparent;
 }
@@ -8,7 +9,7 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 2.5rem;
 }
 
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -17,13 +18,13 @@
 }
 
 .navbar.navbar-expand-sm.navbar-light.navbar-lewagon {
-  right: 24px;
+  right: 1.5rem;
   position: absolute;
 }
 
 .green-form-nav {
-  height: 456px;
-  width: 640px;
+  height: 28.5rem;
+  width: 40rem;
   position: absolute;
   right: -1px;
   z-index: -1;
