@@ -19,7 +19,7 @@
 
 // card
 
-.card-project {
+%card-specs {
   overflow: hidden;
   height: 16rem;
   width: 50rem;
@@ -28,8 +28,29 @@
   display: flex;
   align-items: center;
   position: absolute;
-  top: 48.5rem;
   left: 15rem;
+}
+
+%text-card {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+%title-card {
+  color:black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.card-project {
+  top: 48.5rem;
+  @extend %card-specs;
 }
 
 .card-project {
@@ -48,22 +69,13 @@
 
 .card-project {
   h3 {
-    color:black;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 1.5rem;
+    @extend %title-card;
   }
 }
 
 .card-project {
   p  {
-    font-size: 0.75rem;
-    line-height: 1.4;
-    opacity: .7;
-    margin-bottom: 0;
-    margin-top: 0.5rem;
-    text-align: center;
+    @extend %text-card;
   }
 }
 
@@ -72,16 +84,8 @@
 }
 
 .card2-project {
-  overflow: hidden;
-  height: 16rem;
-  width: 50rem;
-  background: white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
-  display: flex;
-  align-items: center;
-  position: absolute;
   top: 67.5rem;
-  left: 15rem;
+  @extend %card-specs;
 }
 
 .card2-project {
@@ -100,22 +104,13 @@
 
 .card2-project {
   h3 {
-    color:black;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 1.5rem;
+    @extend %title-card;
   }
 }
 
 .card2-project {
   p  {
-    font-size: 0.75rem;
-    line-height: 1.4;
-    opacity: .7;
-    margin-bottom: 0;
-    margin-top: 0.5rem;
-    text-align: center;
+    @extend %text-card;
   }
 }
 
