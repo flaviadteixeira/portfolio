@@ -1,3 +1,5 @@
+@import 'media-queries';
+
 // title
 
 .title-projects {
@@ -5,6 +7,10 @@
   top: 41rem;
   text-align: center;
   left: 35.75rem;
+  @include tablet {
+    top: 42rem;
+    left: 31rem;
+  }
 }
 
 // arrow
@@ -15,6 +21,10 @@
   top: 44.5rem;
   width: 9rem;
   height: 0.25rem;
+  @include tablet {
+    top: 45.5rem;
+    left: 31rem;
+  }
 }
 
 // card
@@ -51,6 +61,9 @@
 .card-project {
   top: 48.5rem;
   @extend %card-specs;
+  @include tablet {
+    left: 11rem;
+  }
 }
 
 .card-project {
@@ -86,6 +99,9 @@
 .card2-project {
   top: 67.5rem;
   @extend %card-specs;
+  @include tablet {
+    left: 11rem;
+  }
 }
 
 .card2-project {
