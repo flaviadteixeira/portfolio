@@ -1,12 +1,19 @@
+@import 'media-queries';
+
 .img-arrow {
   position: absolute;
   width: 3.5rem;
   top: 34.5rem;
   left: 38.5rem;
   animation: down 0.5s infinite alternate;
+  @include tablet {
+    top: 36.5rem;
+    left: 33.5rem;
+    animation: none;
+  }
 }
 
 @keyframes down {
-  from { top: 552px; left: 616px; }
-  to { top: 560px; left: 616px; }
+  from { top: 34.5rem; left: 38.5rem; }
+  to { top: 35rem; left: 38.5rem; }
 }

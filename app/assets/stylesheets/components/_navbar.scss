@@ -1,3 +1,5 @@
+@import 'media-queries';
+
 .navbar-lewagon {
   display: flex;
   justify-content: space-between;
@@ -20,6 +22,9 @@
 .navbar.navbar-expand-sm.navbar-light.navbar-lewagon {
   right: 1.5rem;
   position: absolute;
+  @include tablet {
+    right: -13rem;
+  }
 }
 
 .green-form-nav {
@@ -28,4 +33,7 @@
   position: absolute;
   right: -1px;
   z-index: -1;
+  @include tablet {
+    right: -21rem;
+  }
 }

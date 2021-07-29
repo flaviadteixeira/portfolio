@@ -1,3 +1,5 @@
+@import 'media-queries';
+
 .footer-small {
   background: transparent;
   height: 6.5rem;
@@ -8,6 +10,9 @@
   position: absolute;
   bottom: -52.5rem;
   width: 100%;
+  @include tablet {
+    width: 69rem;
+  }
 }
 
 .footer-small-links {
@@ -36,4 +41,7 @@
   position: absolute;
   bottom: -56rem;
   z-index: -1;
+  @include tablet {
+    width: 145%;
+  }
 }

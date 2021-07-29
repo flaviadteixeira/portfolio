@@ -1,3 +1,6 @@
+@import 'media-queries';
+
+
 // landing
 
 img.img-girl {
@@ -6,6 +9,10 @@ img.img-girl {
   position: absolute;
   right: 7rem;
   top: 13.5rem;
+  @include tablet {
+    right: -12rem;
+    width: 22rem;
+  }
 }
 
 img.img-cat {
@@ -13,4 +20,9 @@ img.img-cat {
   position: absolute;
   height: 6.5rem;
   top: 22rem;
+  @include tablet {
+    right: -14rem;
+    top: 23rem;
+    height: 5.5rem;
+  }
 }
