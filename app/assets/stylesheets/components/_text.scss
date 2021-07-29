@@ -5,11 +5,19 @@
 .big-heading {
   h1 {
     font-size: 3.5rem;
+
     @include tablet {
       position: absolute;
       left: -8rem;
       text-align: center;
       top: 2.5rem;
+    }
+    @include mobile {
+      left: 9rem;
+      text-align: left;
+      top: -0.5rem;
+      width: 10rem;
+      font-size: 1.5rem;
     }
   }
 }
@@ -18,11 +26,18 @@
   p {
     color: #828282;
     padding-top: 1rem;
+
     @include tablet {
       position: relative;
       text-align: center;
       top: 20rem;
       left: -3rem;
+    }
+    @include mobile {
+      text-align: end;
+      top: 4rem;
+      left: 0rem;
+      width: 19rem;
     }
   }
 }
@@ -37,8 +52,15 @@
   height: 23.25rem;
   left: 7.5rem;
   top: 7rem;
+
   @include tablet {
     width: 29.5rem;
+  }
+  @include mobile {
+    width: 29.5rem;
+    height: 23rem;
+    left: 1.5rem;
+    top: 7rem;
   }
 }
 
