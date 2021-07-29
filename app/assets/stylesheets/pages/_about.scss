@@ -2,10 +2,10 @@
 
 .green-circle-about {
   position: absolute;
-  width: 496px;
-  height: 496px;
-  left: 744px;
-  top: 88px;
+  width: 31rem;
+  height: 31rem;
+  left: 46.5rem;
+  top: 5.5rem;
   z-index: -1;
 }
 
@@ -13,10 +13,10 @@
 
 .img-avatar {
   position: absolute;
-  width: 368px;
-  height: 320px;
-  left: 816px;
-  top: 168px;
+  width: 23rem;
+  height: 20rem;
+  left: 51rem;
+  top: 10.5rem;
 }
 
 
@@ -31,7 +31,7 @@
 .about-heading {
   p {
     color: #828282;
-    padding-top: 16px;
+    padding-top: 1rem;
   }
 }
 
@@ -41,11 +41,13 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 position: absolute;
-width: 486px;
-height: 369px;
-left: 120px;
-top: 110px;
+width: 30.5rem;
+height: 23rem;
+left: 7.5rem;
+top: 7rem;
 }
+
+// about buttons
 
 .linkedin-button-about {
   a{
@@ -56,10 +58,10 @@ top: 110px;
 
 .linkedin-button-about {
   position: absolute;
-  top: 416px;
-  left: 120px;
+  top: 26rem;
+  left: 7.5rem;
   border-radius: 5px;
-  height: 48px;
+  height: 3rem;
   background-color: #d3eee1;
   border: none;
 }
@@ -72,19 +74,19 @@ top: 110px;
 // footer
 .footer-small-about {
   background: transparent;
-  height: 100px;
+  height: 6.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
   color: rgba(255, 255, 255, 0.986);
   position: absolute;
-  bottom: -136px;
+  bottom: -8.5rem;
   width: 100%;
 }
 
 .green-form-footer-about {
   width: 100%;
   position: absolute;
-  bottom: -224px;
+  bottom: -14rem;
   z-index: -1;
 }

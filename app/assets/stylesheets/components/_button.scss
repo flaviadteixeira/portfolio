@@ -1,5 +1,12 @@
 // landing page
 
+
+%button-size {
+  position: absolute;
+  top: 23rem;
+  border-radius: 5px;
+  height: 3rem;
+}
 .linkedin-button {
   a{
     text-decoration: none;
@@ -8,11 +15,8 @@
 }
 
 .linkedin-button {
-  position: absolute;
-  top: 368px;
-  left: 264px;
-  border-radius: 5px;
-  height: 48px;
+  left: 16.5rem;
+  @extend %button-size;
 }
 
 .linkedin-button:hover {
@@ -29,13 +33,10 @@
 }
 
 .cv-button {
-  position: absolute;
-  top: 368px;
-  left: 120px;
-  border-radius: 5px;
+  left: 7.5rem;
   border: none;
   background-color: #d3eee1;
-  height: 48px;
+  @extend %button-size;
 }
 
 .cv-button:hover {
