@@ -9,9 +9,15 @@ img.img-girl {
   position: absolute;
   right: 7rem;
   top: 13.5rem;
+
   @include tablet {
     right: -12rem;
     width: 22rem;
+  }
+  @include mobile {
+    right: -14.5rem;
+    width: 14rem;
+    top: 23.5rem;
   }
 }
 
@@ -20,9 +26,15 @@ img.img-cat {
   position: absolute;
   height: 6.5rem;
   top: 22rem;
+
   @include tablet {
     right: -14rem;
     top: 23rem;
     height: 5.5rem;
+  }
+  @include mobile {
+    right: -17rem;
+    top: 28rem;
+    height: 4rem;
   }
 }

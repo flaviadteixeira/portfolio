@@ -19,9 +19,17 @@
 .linkedin-button {
   left: 16.5rem;
   @extend %button-size;
+
   @include tablet {
     top: 21rem;
     left: 18.5rem;
+  }
+  @include mobile {
+    top: 20rem;
+    left: 15.5rem;
+    border: none;
+    background-color: white;
+    height: 2rem;
   }
 }
 
@@ -43,9 +51,15 @@
   border: none;
   background-color: #d3eee1;
   @extend %button-size;
+
   @include tablet {
     top: 21rem;
     left: 8.5rem;
+  }
+  @include mobile {
+    top: 20rem;
+    left: 10rem;
+    height: 2rem;
   }
 }
 

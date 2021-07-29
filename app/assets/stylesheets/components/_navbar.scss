@@ -33,7 +33,12 @@
   position: absolute;
   right: -1px;
   z-index: -1;
+
   @include tablet {
-    right: -21rem;
+    right: -22rem;
+  }
+  @include mobile {
+    height: 32rem;
+    width: 29rem;
   }
 }
